@@ -22,18 +22,19 @@ Name: Jong hyun Choi
  5: White-Collar Crimes: Nonviolent Economic Crimes (ex. Fraud, Financial Crimes, Fraud, etc.)<br>
  6: Others: Types of crimes that do not fall under the above category (ex. animal abuse, environmental crimes, etc.)<br>
 
-![](RackMultipart20230422-1-r964z0_html_ee7198362dbd5477.png)
+![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.001.png)
 
 While relatively few crimes occur against the types of Crime Against People and Crime Administrator Property, Sex Offenses and White-Collar Crimes are relatively common types of crimes.
-
+<br><br><br>
 1-3. Year Variable<br>
 : Categorical data (2014 ~ 2020)
 <br>
-![](RackMultipart20230422-1-r964z0_html_4d0a0eb66cd1397a.png)
+![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.002.png) 
 
 In order to explain the tendency of graph, the Pearson correlation coefficient for the year and the frequency of crime is calculated, the Pearson correlation coefficient was 0.925, and the p-value was 0.003. Therefore, it is represented that The frequency of crimes increases over the years.
 
-The frequency of crime by year for each UCR\_ctype(1~6) ![](RackMultipart20230422-1-r964z0_html_3f441374742b8346.png)
+The frequency of crime by year for each UCR\_ctype(1~6) 
+![](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.003.png)
 
 | UCR\_ctype | Pearson correlation | p-value |
 | --- | --- | --- |
@@ -44,9 +45,9 @@ The frequency of crime by year for each UCR\_ctype(1~6) ![](RackMultipart2023042
 | White-Collar Crimes (UCR\_ctype = 5) | 0.891 | 0.007 |
 | Others (UCR\_ctype = 6) | 0.946 | 0.001 |
 
-In the table, the values obtained by Pearson correlation and p-value are summarized for each graph. As a result of Pearson correlation, it was concluded that the 'Crime Against Property', 'Drug/Narcotic Offenses', 'White-Collar Crimes', and 'Others' types increased the frequency of crimes over year.
+In the table, the values obtained by Pearson correlation and p-value are summarized for each graph. As a result of Pearson correlation, it was concluded that the 'Crime Against Property', 'Drug/Narcotic Offenses', 'White-Collar Crimes', and 'Others' types increased the frequency of crimes over year.<br><br>
 
-4) Summary of other important variables
+1-4. Summary of other important variables
 
 - Crime Basic Information:
 
@@ -96,21 +97,19 @@ call receiveddatetime: date and time of receipt of a report
 
 calldatetime: report date and time
 
-callcleareddatetime: reporting resolution date and time
+callcleareddatetime: reporting resolution date and time<br><br><br>
 
-2. Univariate analysis
+### 2. Univariate analysis
 
-There are two variables that I would like to investigate intensively.
+There are two variables that I would like to investigate intensively.<br>: Type location, Type of incident
 
-: Type location, Type of incident
 
-1) Type location
-
+2-1. Type location<br>
 : type of location where crime occurred
 
 In the values of the Type location variable, there were 742 missing values, and there were 74 unique values.
 
-1-1. Table of frequency of Type location
+1. Table of frequency of Type location
 
 | Type location | Frequency |
 | --- | --- |
@@ -125,46 +124,45 @@ In the values of the Type location variable, there were 742 missing values, and 
 
 The frequency of the values in the type location is summarized in the table. Roads were the most common types of crime places, followed by Single Family Residence and Apartment Parking Lot.
 
-1-2. Histogram of the frequency table
+2. Histogram of the frequency table
 
-![](RackMultipart20230422-1-r964z0_html_2facad3a23913948.png)
+![hi](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.004.png)
 
 To check how much the frequency of the type location value was distributed, the histogram of the frequency table above was drawn. However, the frequency variation was very severe, therefore log10 was applied and the distribution was examined. As a result, it was confirmed that the distribution of data applied log10 exists in a form similar to the normal distribution.
 
-2) Type of Incident
-
+2-2. Type of Incident<br>
 : details information of crime type
 
 In the values of the Type of Incident column, there were no missing values, and there were 1155 unique values.
 
-2-1. Table of frequency of Type of incident
+1. Table of frequency of Type of incident
 
-| Type of incident | Frequency |
-| --- | --- |
-| BMV | 75861 |
-| UNAUTHORIZED USE OF MOTOR VEH - AUTOMOBILE | 34169
- |
-| FOUND PROPERTY (NO OFFENSE) | 24282 |
-| BURGLARY OF HABITATION - FORCED ENTRY | 23850 |
-| ….. | …… |
-| MISAPP FIDUC/FINAN PROP \> OR EQUAL $30K\<$150K | 1 |
-| INSURANCE FRAUD RISKING BODILY INJ/DEATH | 1 |
+|Type of incident|Frequency|
+| :- | :- |
+|BMV|75861|
+|UNAUTHORIZED USE OF MOTOR VEH - AUTOMOBILE|<p>34169</p><p></p>|
+|FOUND PROPERTY (NO OFFENSE)  |24282|
+|BURGLARY OF HABITATION - FORCED ENTRY|23850|
+|…..|……|
+|MISAPP FIDUC/FINAN PROP > OR EQUAL $30K<$150K|1|
+|INSURANCE FRAUD  RISKING BODILY INJ/DEATH|1|
 
 The frequency of the values in the type of incident is summarized in the table. BMV value is most frequent value, followed by "UNAUTHORIZED USE OF MOTOR VEH", "FOUND PROPERTY".
 
-2-2. Histogram of the frequency table
+2. Histogram of the frequency table
 
-![](RackMultipart20230422-1-r964z0_html_427dec7d8b0be126.png)
+![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.005.png)
 
-To check how much the frequency of the type of incident value was distributed, the histogram of the frequency table above was drawn. Like type location variable, the frequency variation was very severe, therefore log10 was applied and the distribution was examined. As a result, the data applied log10 showed a distribution biased to the left.
+To check how much the frequency of the type of incident value was distributed, the histogram of the frequency table above was drawn. Like type location variable, the frequency variation was very severe, therefore log10 was applied and the distribution was examined. As a result, the data applied log10 showed a distribution biased to the left.<br><br><br>
 
-3. Multivariate analysis
+### 3. Multivariate analysis
 
 The purpose is to figure out that verify correlation between the "type location" and the "type of crime". Since both variables are string data, mutual information and chi square tests were conducted on the frequency of unique values in each column. The results showed that the Mutual information was 0.6171 and the P-value was 0. Therefore, it was confirmed that the correlation between these two variables was very high.
 
-\* 'chi2\_contingency' function in 'scipy.stats' package is used to calculate p-value, and 'mutual\_info\_ score' function is used to calculate mutual information.
+\* 'chi2\_contingency' function in 'scipy.stats' package is used to calculate p-value, and 'mutual\_info\_ score' function is used to calculate mutual information.<br><br><br>
 
-4. Suggestion
+
+### 4. Suggestion
 
 Identifying the correlation between the types of crimes and the types of places where crimes occurred is important in developing crime prevention and response strategies. This is because certain types of crime occur more often in certain places, so you can come up with strategies to prevent and respond to crime in those places.
 
