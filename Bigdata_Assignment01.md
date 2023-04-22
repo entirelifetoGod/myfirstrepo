@@ -1,7 +1,12 @@
-## Title: Consideration of crime data, correlation between type of crime location and the type of crime
+# Exploratory Data Analysis 
+### - StudentID: 21700741
+### - Name: Jong hyun Choi
+### - 1st Major: Life Science
+### - 2nd Major: Data Science
 
-Student ID: 21700741<br>
-Name: Jong hyun Choi
+<br>
+
+ This report identifies the correlation between the types of crime and the types of place where the crime occurred. Before identifying the correlation, the overall information of data set is checked, and the types of the crime variable and the types of the location of crime variable is examined in detail. In addition, mutual information and chi-square tests are conducted to find out the correlation between the two variables.
 
 ### 1. Data explanation
 
@@ -12,7 +17,8 @@ Name: Jong hyun Choi
 - Data type: float64(1), int16(1), int8(1), object(104)
 : A data frame with 1 column with real number data, 2 columns with integer data, and 104 columns with string data.
 <br>
-  1-2. UCR_ctype Variable<br>
+
+1-2. UCR_ctype Variable<br>
   : Categorical data (1 to 6)
 <br><br>
 1: Crimes against people: crimes committed directly against others (ex. murder, robbery, assault, etc.)<br>
