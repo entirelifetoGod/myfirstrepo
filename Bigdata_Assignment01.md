@@ -28,19 +28,19 @@
  5: White-Collar Crimes: Nonviolent Economic Crimes (ex. Fraud, Financial Crimes, Fraud, etc.)<br>
  6: Others: Types of crimes that do not fall under the above category (ex. animal abuse, environmental crimes, etc.)<br>
 
-![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.001.png)
+![차트이(가) 표시된 사진자동 생성된 설명](type.png)
 
 While relatively few crimes occur against the types of Crime Against People and Crime Administrator Property, Sex Offenses and White-Collar Crimes are relatively common types of crimes.
 <br><br><br>
 1-3. Year Variable<br>
 : Categorical data (2014 ~ 2020)
 <br>
-![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.002.png) 
+![차트이(가) 표시된 사진자동 생성된 설명](year.png) 
 
 In order to explain the tendency of graph, the Pearson correlation coefficient for the year and the frequency of crime is calculated, the Pearson correlation coefficient was 0.925, and the p-value was 0.003. Therefore, it is represented that The frequency of crimes increases over the years.
 
 The frequency of crime by year for each UCR\_ctype(1~6) 
-![](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.003.png)
+![](year_grid.png)
 
 | UCR\_ctype | Pearson correlation | p-value |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ The frequency of the values in the type location is summarized in the table. Roa
 
 2. Histogram of the frequency table
 
-![hi](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.004.png)
+![hi](fig1.png)
 
 To check how much the frequency of the type location value was distributed, the histogram of the frequency table above was drawn. However, the frequency variation was very severe, therefore log10 was applied and the distribution was examined. As a result, it was confirmed that the distribution of data applied log10 exists in a form similar to the normal distribution.
 
@@ -157,7 +157,7 @@ The frequency of the values in the type of incident is summarized in the table. 
 
 2. Histogram of the frequency table
 
-![차트이(가) 표시된 사진자동 생성된 설명](Aspose.Words.c12af522-8cd9-4999-b6b0-6900a9059294.005.png)
+![차트이(가) 표시된 사진자동 생성된 설명](fig2.png)
 
 To check how much the frequency of the type of incident value was distributed, the histogram of the frequency table above was drawn. Like type location variable, the frequency variation was very severe, therefore log10 was applied and the distribution was examined. As a result, the data applied log10 showed a distribution biased to the left.<br><br><br>
 
